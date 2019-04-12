@@ -6,9 +6,9 @@ def inversa(x):
 
 c=2.11
 
-x=[inversa(np.random.random()) for _ in xrange(100000)]
-y=[np.random.random() for _ in xrange(100000)]
-u=[np.random.random() for _ in xrange(100000)]
+x=[inversa(np.random.random()) for _ in range(100000)]
+y=[np.random.random() for _ in range(100000)]
+u=[np.random.random() for _ in range(100000)]
 
 
 print(x / y*c)

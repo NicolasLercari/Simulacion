@@ -5,7 +5,7 @@ def inversa(x):
 	return 1 / (1 - (4*x/5))
 
 
-l=[inversa(np.random.random()) for _ in xrange(100000)]
+l=[inversa(np.random.random()) for _ in range(100000)]
 
 
 
